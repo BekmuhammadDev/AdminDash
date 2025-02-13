@@ -1,0 +1,42 @@
+aside{
+    position: sticky;
+    top: 0;
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(54, 51, 51);
+    padding: 30px;
+
+    .logo{
+       text-decoration: none;
+       text-transform: uppercase;
+       color: beige;
+       
+    }
+
+    .list{
+        list-style: none;
+       margin-top: 40px;
+       padding-top: 40px;
+      
+
+       &-item{
+        padding: 10px 14px;
+        color: beige;
+        text-decoration: none;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 4px;
+        &:hover{
+            background: rgba(245, 245, 220, 0.349);
+            color: white;
+        }
+       }
+    }
+}
+
+.active{
+    background: gray;
+    color: white;
+}
