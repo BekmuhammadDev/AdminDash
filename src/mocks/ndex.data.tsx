@@ -21,7 +21,7 @@ export const navigation:Tnavigation[] = [
     },
     {
         path: '/pages',
-        title: 'Pages',
+        title: 'Orders',
         icon: "bi bi-layout-split ",
         role: ['admin', ],
     },

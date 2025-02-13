@@ -1,10 +1,11 @@
 import {FC} from 'react'
 import "./_style.scss"
+import TableCheck from '../../components/tablecheck'
 
 export const Pages : FC = () => {
   return (
     <div>
-      <h1>Pages</h1>
+      <TableCheck/>
     </div>
   )
 }

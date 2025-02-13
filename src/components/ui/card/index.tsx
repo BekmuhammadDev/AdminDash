@@ -3,7 +3,7 @@ import { Card, Col, Row } from 'antd';
 import "./_style.scss"
 
 const CardStat: React.FC = () => (
-  <Row gutter={16}>
+  <Row gutter={16} className='cardstats'>
     <Col span={6}>
       <Card title="Card title" variant="borderless" className='cardPrimary'>
         Primary Card

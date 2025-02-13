@@ -12,7 +12,7 @@ export const AppRouter = createBrowserRouter([
         element: <Dashboard />,
         children: [
             {
-                index: true,  // `/` yo‘nalishi uchun
+                index: true, 
                 element: <Stats />
             },
             {
